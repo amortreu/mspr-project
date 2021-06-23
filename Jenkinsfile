@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('prepare') {
             steps {
-                echo "Prepare"
+                echo "Prepare --"
             }
         }
         stage('build') {
